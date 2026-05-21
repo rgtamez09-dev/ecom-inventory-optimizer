@@ -89,7 +89,7 @@ streamlit       — web dashboard
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/ecom-inventory-optimizer.git
+git clone https://github.com/rgtamez09-dev/ecom-inventory-optimizer.git
 cd ecom-inventory-optimizer
 
 # 2. Install dependencies

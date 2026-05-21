@@ -29,7 +29,7 @@ sku_df, demand_df = load()
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.image('https://via.placeholder.com/200x60/2c3e50/ffffff?text=FlexCore', width=200)
+    st.markdown('## 📦 FlexCore')
     st.markdown('### Settings')
     service_level = st.selectbox('Service Level (Safety Stock)', list(SERVICE_LEVELS.keys()), index=0)
     st.markdown('---')
